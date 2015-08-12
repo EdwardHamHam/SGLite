@@ -1,0 +1,16 @@
+name: SGLite
+main: SGPro\SGPro
+version: 1.0.00
+api: 1.0.0
+author: HotFireyDeath / Chopstick Software
+
+commands:
+ sg:
+  description: SGLite's core command.
+  usage: /sg <option> <option2>
+  permission: sg.core
+ match1:
+  description: Do not use this command as player.
+  usage: /match1 <player>
+  permission: sg.match1
+---
