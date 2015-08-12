@@ -1,0 +1,138 @@
+---
+#SGPro configuration file.
+
+#Do not change version:, as it may cause problems!
+version: 1.0
+
+
+
+#All setup and configuration informations are below ---
+
+#how much wait time before the match begins, in minutes.
+#please use a whole integer (like 1, 2, 3, etc...) and not 0.75.
+avwaittime: 2
+
+#how much seconds of countdown
+countdown: 10
+
+#how much players remaining until deathmatch choice appears.
+dmplayers: 5
+
+#minimum amount of players before wait time can begin.
+nplayers: 10
+
+#deathmatch time remaining (in minutes).
+dmtime: 7
+
+
+
+#all worlds and stage configuration below ---
+
+#Map 1 information --
+#the map name
+name1: Map1
+#map spawns, enter like so:
+    #spawns:
+        #- 200, 300, 500
+        #- 500, 600, 900
+        #- etc..
+spawns1:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+#Map 2 information --
+#the map name
+name2: Map2
+#map spawns, enter like so:
+    #spawns:
+        #- 200, 300, 500
+        #- 500, 600, 900
+        #- etc..
+spawns2:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+#Map 3 information --
+#the map name
+name3: Map3
+#map spawns, enter like so:
+    #spawns:
+        #- 200, 300, 500
+        #- 500, 600, 900
+        #- etc..
+spawns3:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+#Map 4 information --
+#the map name
+name4: Map4
+#map spawns, enter like so:
+    #spawns:
+        #- 200, 300, 500
+        #- 500, 600, 900
+        #- etc..
+spawns:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+#Map 5 information --
+#the map name
+name5: Map5
+#map spawns, enter like so:
+    #spawns:
+        #- 200, 300, 500
+        #- 500, 600, 900
+        #- etc..
+spawns:
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    
+# please DO NOT add more maps, as this is the maximum amount of maps coded / available.
+---
